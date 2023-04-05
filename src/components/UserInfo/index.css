@@ -1,0 +1,94 @@
+.user-info-card {
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 400px) {
+  .profile-image {
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+  }
+  .user-name {
+    color: #12022f;
+    font-size: 20px;
+  }
+  .user-role {
+    color: #9aa5b1;
+    font-size: 18px;
+    margin-top: 2px;
+    padding-top: 0px;
+  }
+}
+
+@media (min-width: 400px) {
+  .profile-image {
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+  }
+  .user-name {
+    color: #12022f;
+    font-size: 20px;
+  }
+  .user-role {
+    color: #9aa5b1;
+    font-size: 18px;
+    margin-top: 2px;
+    padding-top: 0px;
+  }
+}
+
+@media (min-width: 576px) {
+  .profile-image {
+    height: 130px;
+    width: 130px;
+    margin-top: 30px;
+  }
+  .user-name {
+    color: #12022f;
+    font-size: 20px;
+  }
+  .user-role {
+    color: #9aa5b1;
+    font-size: 18px;
+    margin-top: 2px;
+    padding-top: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .profile-image {
+    height: 150px;
+    width: 150px;
+    margin-top: 30px;
+  }
+  .user-name {
+    color: #12022f;
+    font-size: 25px;
+  }
+  .user-role {
+    color: #9aa5b1;
+    font-size: 22px;
+    margin-top: 2px;
+    padding-top: 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  .profile-image {
+    height: 180px;
+    width: 180px;
+    margin-top: 30px;
+  }
+  .user-name {
+    color: #12022f;
+    font-size: 28px;
+  }
+  .user-role {
+    color: #9aa5b1;
+    font-size: 25px;
+    margin-top: 2px;
+    padding-top: 0px;
+  }
+}

@@ -1,0 +1,117 @@
+.title-date-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+hr {
+  width: 90%;
+  background-color: #9aa5b1;
+  border: 1px solid #9aa5b1;
+  margin-bottom: 10px;
+  margin-top: 6px;
+}
+
+@media (max-width: 400px) {
+  .blog-item-heading {
+    color: #12022f;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .blog-item-date {
+    color: #9aa5b1;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  .blog-item-description {
+    color: #616e7c;
+    font-size: 16px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 400px) {
+  .blog-item-heading {
+    color: #12022f;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .blog-item-date {
+    color: #9aa5b1;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  .blog-item-description {
+    color: #616e7c;
+    font-size: 16px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 576px) {
+  .blog-item-heading {
+    color: #12022f;
+    font-size: 20px;
+    margin-left: 13px;
+  }
+  .blog-item-date {
+    color: #9aa5b1;
+    font-size: 18px;
+    margin-right: 13px;
+  }
+  .blog-item-description {
+    color: #616e7c;
+    font-size: 18px;
+    padding-right: 13px;
+    padding-left: 13px;
+    margin-top: 5px;
+    margin-bottom: 13px;
+  }
+}
+
+@media (min-width: 768px) {
+  hr {
+    width: 95%;
+  }
+}
+
+@media (min-width: 992px) {
+  .blog-item-heading {
+    color: #12022f;
+    font-size: 22px;
+  }
+  .blog-item-date {
+    color: #9aa5b1;
+    font-size: 18px;
+  }
+  .blog-item-description {
+    color: #616e7c;
+    font-size: 16px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .blog-item-heading {
+    color: #12022f;
+    font-size: 30px;
+  }
+  .blog-item-date {
+    color: #9aa5b1;
+    font-size: 25px;
+  }
+  .blog-item-description {
+    color: #616e7c;
+    font-size: 20px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+  }
+}
